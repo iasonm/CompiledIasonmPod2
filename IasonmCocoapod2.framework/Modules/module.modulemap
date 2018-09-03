@@ -1,0 +1,11 @@
+framework module IasonmCocoapod2 {
+  umbrella header "IasonmCocoapod2.h"
+
+  export *
+  module * { export * }
+}
+
+module IasonmCocoapod2.Swift {
+    header "IasonmCocoapod2-Swift.h"
+    requires objc
+}
