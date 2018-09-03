@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/iasonm/CompiledIasonmPod.git', :tag => 'v1.0.0' }
+    s.source            = { :git => 'https://github.com/iasonm/CompiledIasonmPod2.git', :tag => 'v1.0.0' }
 
     s.ios.deployment_target = '11.4'
     s.vendored_frameworks = 'IasonmCocoapod2.framework'
